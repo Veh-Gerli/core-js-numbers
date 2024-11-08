@@ -632,7 +632,6 @@ function getCountOfOddNumbers(number) {
   let count = 0;
   for (let i = 0; i <= (number < 0 ? -number : number); i += 1) {
     if (i % 2 === 1) count += 1;
-    console.log(number, i, i % 2, count);
   }
   return count;
 }
